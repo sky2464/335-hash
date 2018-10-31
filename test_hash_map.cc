@@ -122,7 +122,7 @@ int main(int argc, char **argv) {
     HashQuadraticProbing<string> quadratic_probing_table;
     TestComputeAdjacentWords(quadratic_probing_table, the_words);
   } else if (param_flag == "double") {
-    DoubleHashTable<string> double_probing_table;
+    HashDoubleProbing<string> double_probing_table;
     TestComputeAdjacentWords(double_probing_table, the_words);
   }
 
